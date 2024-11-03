@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+    <title>HOMEPAGE</title>
+  </head>
+  <body class="bg-dark">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">TOURGUIDE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/paket/">Paket</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> OTHERS </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/contact/">CONTACT</a></li>
+                <li><a class="dropdown-item" href="/kupon/">Kupon</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- layout 1 -->
+    <div class="container-fluid text-center text-white bg-dark" style="height: 100vh">
+      <!-- carousel -->
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/gng2.png" class="d-block w-100" alt="TOURGUIDE image" style="height: 400px" />
+            <div class="carousel-caption">
+              <h5>Jayawijaya Tour Special</h5>
+              <p>Menjelajahi gunung terdingin di Indonesia</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/gng.jpeg" class="d-block w-100" alt="TOURGUIDE 2 image" style="height: 400px" />
+            <div class="carousel-caption">
+              <h5>Everest Tour Specials</h5>
+              <p>Tidak pakai sarung tangan Fix Frocebite</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/aur.png" class="d-block w-100" alt="TOURGUIDE 3 image" style="height: 400px" />
+            <div class="carousel-caption">
+              <h5>Merchandise and accesories</h5>
+              <p>Tersedia kebutuan tour & travel</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- akhir carousel -->
+      <div class="row align-items-center">
+        <div class="col-12 mt-4">
+          <img src="img/rub.png" alt="rubah" style="width: 100px" />
+          <h2 class="mt-2">Zikri Fadilah <i style="color: greenyellow">tour service</i></h2>
+          <i>Berpengalaman lebih dari <span style="color: red">10+ </span>tahun lebih di Indonesia</i>
+        </div>
+      </div>
+      <!-- card -->
+
+      <div class="row text-dark mt-3 mb-lg-0 mb-md-0 mb-sm-3">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-lg-0 mb-md-0 mb-sm-2 g-2">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Tour Bersama Saya</h5>
+              <p class="card-text">Hi, saya bersedia mengajak kamu ke tempat yang menakjubkan di Indonesia dan Dunia</p>
+              <a href="/contact/" class="btn btn-dark d-block">Hubungi Sekarang</a>
+            </div>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"> 999+</span>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-lg-0 mb-md-0 mb-sm-3 g-2">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Paket Tour Terbaik</h5>
+              <p class="card-text">Tersedia berbagai macam paket tour terbaik <i style="color: limegreen">Khusus</i> di Indonesia, jangan sampai kesempatan ini terlewat!</p>
+              <a href="/paket" class="btn btn-dark d-block">Lihat Biaya Paket</a>
+            </div>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"> 999+</span>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 offset-lg-0 offset-md-3 offset-sm-0 mt-lg-2 mt-md-3 mt-sm-0 mb-lg-0 mb-md-0 mb-sm-3 g-2">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Spesial Kupon</h5>
+              <p class="card-text">Dapatkan kupon menarik untuk tour gratis bersama Saya <i style="color: blue">Edisi Terbatas</i> dapatkan tiketnya!</p>
+              <a href="/kupon" class="btn btn-dark d-block">Lihat Lebih Lengkap</a>
+            </div>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"> 999+</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- end card -->
+    </div>
+    <!-- akhir layout 1 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </body>
+</html>
